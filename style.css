@@ -47,6 +47,7 @@ h1 {
 .images {
   margin-top: 8rem;
   display: flex;
+  gap: 0.7rem;
   justify-content: center;
   align-items: center;
 }
