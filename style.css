@@ -6,7 +6,10 @@
     box-sizing: border-box;
     color: white;
 }
-
+button{
+  background: none;
+  border: none;
+}
 .gradient-background {
   background-image: url(./images/Mask\ group.svg);
   background-size: 150% 150%;
