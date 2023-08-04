@@ -61,7 +61,7 @@ p {
 }
 
 input{
-    height: 3.9rem;
+    height: 3.6rem;
     border-right: none;
    
 }
@@ -74,14 +74,15 @@ a{
     text-decoration: none;
 }
 .input-group-text {
-    background-color: #4083FF;
+    background-color: 
+    #7ECCD7;
     border: 0;
-    border-radius: 20%;
+    border-radius: 25rem;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
 .input-group-text:hover {
-    background-color: #2c5299;
+    background-color: #4f9da7;
     border: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -97,14 +98,14 @@ span{
 
 
 span:hover{
-    background-color:  #7ECCD7;
-    border:  #7ECCD7;
-    border-radius: 1px solid  #7ECCD7 ;
+    background-color:  #4f9da7;
+    border:  #4f9da7;
+    border-radius: 1px solid  #4f9da7 ;
     text-decoration: none;
 }
 .form-control{
     width: 18rem;
-    border-radius: 20%;
+    border-radius: 25rem;
     border-left: none;
     border-top-right-radius: 0;
 }
