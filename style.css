@@ -12,7 +12,7 @@ button{
 }
 .gradient-background {
   background-image: url(./images/Mask\ group.svg);
-  background-size: 150% 150%;
+  background-size: 180% 150%;
   animation: gradient-animation 18s ease infinite;
   height: 100vh;
 }
@@ -39,6 +39,7 @@ h1 {
 
 .logo {
     padding-top: 9rem;
+    padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +145,22 @@ color: #CBD5E1;
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
+    .gradient-background {
+        background-image: url(./images/Mask\ group.svg);
+        background-size: cover;
+        animation: gradient-animation 18s ease infinite;
+        height: 100vh;
+      }
+
+      .logo {
+        padding-top: 4rem;
+        padding-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
   
     h1 {
         font-size: 4.25rem;
@@ -152,7 +168,7 @@ color: #CBD5E1;
         line-height: 5rem;
         letter-spacing: 0.01em;
         text-align: left;
-        padding-top: 5rem;
+        padding-top: 4rem;
       }
 
 
@@ -180,10 +196,8 @@ input{
 
 .images {
     margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     display: flex;
-    width: 100px;
-    justify-content: space-between;
   }
 .small{
     width: 20px;
