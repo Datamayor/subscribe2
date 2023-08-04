@@ -161,10 +161,13 @@ color: #CBD5E1;
         justify-content: center;
         align-items: center;
     }
+    .logo img{
+      height: 50px;
+    }
 
   
     h1 {
-        font-size: 4.25rem;
+        font-size: 3.8rem;
         font-weight: 700;
         line-height: 5rem;
         letter-spacing: 0.01em;
