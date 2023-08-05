@@ -15,6 +15,8 @@ button{
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
   height: 100vh;
+  height: 100svh;
+  position: relative;
 }
 
 @keyframes gradient-animation {
@@ -38,14 +40,14 @@ h1 {
 }
 
 .logo {
-    padding-top: 9rem;
+    padding-top: 10%;
     padding-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .images {
-  margin-top: 8rem;
+  margin-top: 5rem;
   display: flex;
   gap: 0.7rem;
   justify-content: center;
@@ -134,7 +136,11 @@ span:hover{
     justify-content: center;
     align-items: center;
 }
-
+footer{
+  position: absolute;
+  bottom: 0;
+  inset: auto 0 0;
+}
 footer p{
 text-align: center;
 font-weight: 400;
